@@ -25,7 +25,6 @@ function currentLine(katzDeliLine){
       lineList.push((i+1) + ". " + katzDeliLine[i]);
   }
     return("The line is currently: " + lineList.join(', '));
-
   }
   else{
     return("The line is currently empty.");
